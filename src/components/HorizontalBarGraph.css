@@ -1,0 +1,33 @@
+.gbg-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: inherit;
+}
+
+.gbg-label {
+  min-width: 5rem;
+  font-size: 0.9rem;
+}
+
+.gbg-track {
+  flex: 1;
+  height: 1.2rem;
+  background: #e5e5e5;
+  border-radius: 0.3rem;
+  overflow: hidden;
+}
+
+.gbg-fill {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 0.3rem;
+  transition: width 0.6s ease-out;
+}
+
+.gbg-value {
+  min-width: 4.5rem;
+  text-align: right;
+  font-size: 0.85rem;
+  color: #444;
+}

@@ -1,0 +1,43 @@
+{
+  "name": "@valuten/growing-bar-graph",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Horizontal bar graph React component with animated growth.",
+  "main": "./dist/growing-bar-graph.cjs",
+  "module": "./dist/growing-bar-graph.js",
+  "exports": {
+    ".": {
+      "import": "./dist/growing-bar-graph.js",
+      "require": "./dist/growing-bar-graph.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@valuten"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "oxlint",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "vite": "^8.3.0"
+  }
+}
