@@ -1,9 +1,13 @@
 {
   "name": "@valuten/growing-bar-graph",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Horizontal bar graph React component with animated growth.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Valuten/growing-bar-graph.git"
+  },
   "main": "./dist/growing-bar-graph.cjs",
   "module": "./dist/growing-bar-graph.js",
   "exports": {
@@ -16,7 +20,8 @@
     "dist"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@valuten"
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
   "scripts": {
     "dev": "vite",
